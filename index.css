@@ -1,0 +1,106 @@
+
+*{
+    font-family: "Roboto Mono"
+}
+
+
+body{
+    margin 0;
+    padding 0;
+
+}
+.container{
+    width: 755px;
+    margin:0 auto;
+}
+
+header{
+    padding;15px;
+
+}
+
+nav a{
+    background-color: #5ed3eb;
+    border-radius: 10PX;
+    padding: 20px;
+    color:white;
+    text-decoration: none;
+    margin:15%;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    min-height: 16px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+nav a:first-child{
+    background-color: #FF764E;
+    margin:5px 3%;
+    padding:10px 20px;
+    min-height: 36px;
+
+}
+
+nav a:last-child{
+    background-color: #FFCD69;
+    margin:5px 3%;
+}
+
+.main-img img{
+    border-radius: 80%;
+    width: 200px;
+    height:200px;
+
+}
+
+.main-img{
+    width: 30%;
+    display: inline-block;
+}
+
+main{
+    padding-top: 20px;
+
+}
+
+.main-text{
+    width: 68%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+h1{
+    font-family: "Chelsea Market";
+}
+
+#peribatanitim{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 40px;
+
+}
+.pbilgi{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.pbilgi img{
+    width: 30%;
+
+}
+
+footer{
+    background-color: #F9E7DC;
+    margin-top: 40px;
+
+}
+footer div{
+    height: 150px;
+    background-image: url("assets/footer_img.jpg");
+}
+.spacer{
+    height: 50px;
+}
